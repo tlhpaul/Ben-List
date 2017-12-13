@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">BensList</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_resetPassword">Reset Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="signin_textview_spacing">Or</string>
+    <string name="facebook_app_id">1435000976530853</string>
+    <!-- other strings -->
+
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_text">BensList is an app that serves as a CraigsList for the Penn community
+        members (students, faculty, etc.).  Users are able to buy and sell both items and
+        services such as books, furniture, moving services, and tutoring. The app allows
+        users to search for items in a meaningful way by providing intuitive categorization.
+        Additionally, the app store users\' personal relevant information including past sales
+        and purchases and contact information. Our team (JP Quinn, Tyler Douglas, Max Doppelt, and
+        Josh Ross) is working hard every day to enhance the users\' experience.</string>
+    <string name="terms_header">Terms and Conditions</string>
+    <string name="terms_intro">Please read these Terms and Conditions carefully before using
+        the BensList app. Your access to and use of the Service is conditioned on your acceptance
+        of and compliance with these Terms. These Terms apply to all visitors, users and others who
+        access or use the Service. By accessing or using the Service you agree to be bound by these
+        Terms. If you disagree with any part of the terms then you may not access the Service.</string>
+    <string name="terms_purchases_header">Purchases</string>
+    <string name="terms_purchases">If you wish to purchase any product or service made available
+        through the Service you may be asked to supply certain information relevant to your Purchase
+        including, without limitation, your address, phone number, email, and credit/debit card
+        information.</string>
+    <string name="terms_changes_header">Changes</string>
+    <string name="terms_changes">We reserve the right, at our sole discretion, to modify or replace
+        these Terms at any time. If a revision is material we will try to provide at least 30 days\'
+        notice prior to any new terms taking effect. What constitutes a material change will be
+        determined at our sole discretion.</string>
+    <string name="terms_contact_header">Contact Us</string>
+    <string name="terms_contact">If you have any questions about these Terms, please contact us.</string>
+
+    <string-array name="product_categories_search_array">
+        <item>Furniture</item>
+        <item>Electronics</item>
+        <item>Books</item>
+        <item>Kitchen Supplies</item>
+        <item>Clothes</item>
+        <item>Services</item>
+        <item>All Categories</item>
+    </string-array>
+
+    <string-array name="product_categories_array">
+        <item>Furniture</item>
+        <item>Electronics</item>
+        <item>Books</item>
+        <item>Kitchen Supplies</item>
+        <item>Clothes</item>
+        <item>Services</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="user_rating_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_transaction">TransactionActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_news_feed">BensList News Feed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="search_hint">Search User</string>
+    <string name="app_label">BensList</string>
+
+</resources>

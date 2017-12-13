@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "852074908614",
+    "firebase_url": "https://benslist-9a9a0.firebaseio.com",
+    "project_id": "benslist-9a9a0",
+    "storage_bucket": "benslist-9a9a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852074908614:android:c0a056d3df080ca9",
+        "android_client_info": {
+          "package_name": "edu.upenn.benslist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852074908614-6h48lf8hblvbopn75hn9ntt51c9t45hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClLGu6To_qMbQXdQjhgiqVmPbzo1erXhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

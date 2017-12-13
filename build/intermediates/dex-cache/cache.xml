@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/glide-3.7.0_6a7057cdcef546adc4eb9eb85f2376a9174cb75d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/6cd0c6e1285b0064011ca38dbec806411b6639c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_e247974cea5a249595576a80331bdb2717018861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/d86a743299b0b0417beb8f5225f63614e7f4d1dc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_81140ba91950bb571c67a9bcfa940abb866605b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/431d2396e8ee17232661d160f2085f4ebd2beb53/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_de8561ec79de892e38a243118ef6b08802ff9f98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/609104d1beb88caf29187525c4f65e7c53b4be97/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_226fb47c7e5770879eac30d3bd89b489f96d098d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/d7b39c72e5083cf4d0f735cd63ca891ce696899f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_f81ea125e27bffa4944a9259885fd97433d2e1bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/f64cff142d34afd7d1248e684084392e58868528/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_48bb580742bfb203435c7526ce0ce290cb8f6123.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/75fce2c1dcf0a6335412f3bdc81010ecc01ff6a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_22a92699d9a9507e7bd38f2b16a96331f5de7350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/e3e9e107dc8b3a4696015d8f9c40dab4052cb876/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_d72c7246e0f80add4435659db24ca5c3ca7d749c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/c649a46d075b59e26c4becad0bb32b792ba8c525/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fb39bae8ad818c16463919b0405c6ffbcb9ef10">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_9715e5db8314fe95c4423c9db63807f2ad0462d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/c06f2c4cc9ad480950e76713b5c9539aec863c50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_fe4236d963689e48b90944fb4f237b298062d8f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/paulhsu/.android/build-cache/16023c0678568514aa596b6dabc5a70c724e622b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/paulhsu/573F17-19-BensList/app/build/intermediates/pre-dexed/debug/classes_8e39095d0cea1cff997850096da12542ec21f6f0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/instructionsTextForSearchFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select the filters for your search, then press 'Done' when you're finished"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/priceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"/>
+
+    <CheckBox
+        android:id="@+id/lowPriceCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$0 - $99.99" />
+
+    <CheckBox
+        android:id="@+id/mediumPriceCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$100 - $199.99" />
+
+    <CheckBox
+        android:id="@+id/highPriceCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">= $200" />
+
+    <TextView
+        android:id="@+id/locationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"/>
+
+    <CheckBox
+        android:id="@+id/closeLocationCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 - 9.99 miles" />
+
+    <CheckBox
+        android:id="@+id/mediumLocationCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 - 19.99 miles" />
+
+    <CheckBox
+        android:id="@+id/farLocationCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">= 20 miles" />
+
+    <Button
+        android:id="@+id/doneFilteringResultsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

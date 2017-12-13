@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <GridLayout
+        android:id="@+id/inboxRequestListingGirdLayout"
+        android:layout_width="370dp"
+        android:layout_height="114dp">
+
+        <FrameLayout
+            android:id="@+id/profilePic"
+            android:layout_width="105dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/requestSenderPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/productListingLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/BuyerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/RequestMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wants to buy your"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/acceptButton"
+                    android:layout_width="85dp"
+                    android:layout_height="40dp"
+                    android:text="Accept"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/declineButton"
+                    android:layout_width="85dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/acceptButton"
+                    android:layout_toRightOf="@+id/acceptButton"
+                    android:text="Decline"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/moreRequestButton"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/declineButton"
+                    android:layout_toRightOf="@+id/declineButton"
+                    android:text="More"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

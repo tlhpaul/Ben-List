@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/usersNameTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/usersAgeTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users Age"
+        android:layout_below="@+id/usersNameTextField"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/usersRatingTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users Rating"
+        android:layout_below="@+id/usersAgeTextField"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/viewUploadedProductsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View The Products This User Has Uploaded"
+        android:layout_below="@+id/usersRatingTextField"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/viewFavoriteUsersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View This User's Favorite Users"
+        android:layout_below="@+id/viewUploadedProductsButton"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/viewPreviousPurchasesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Purchases"
+        android:layout_below="@+id/viewFavoriteUsersButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/reportUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report This User"
+        android:layout_below="@+id/viewPreviousPurchasesButton"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/messageUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reportUserButton"
+        android:layout_centerHorizontal="true"
+        android:text="Message User" />
+
+
+</RelativeLayout>

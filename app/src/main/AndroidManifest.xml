@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.upenn.benslist">
+    <uses-permission android:name="Manifest.permission.CALL_PHONE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".TermsActivity" />
+        <activity android:name=".SearchPageActivity" />
+        <activity android:name=".FilterSearchResultsActivity" />
+        <activity android:name=".SearchResultsActivity" />
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".UploadProductActivity" />
+        <activity android:name=".CheckoutProductActivity" />
+        <activity android:name=".CheckoutPurchasedProductActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".SearchUsers"/>
+        <activity android:name=".PreviousPurchasedItems" />
+        <activity android:name=".ProductPurchaseConfirmationActivity" />
+        <activity android:name=".MyProductsActivity" />
+        <activity android:name=".ViewUploadedPurchasedProductsActivity" />
+        <activity android:name=".ViewUsersProfileActivity" />
+        <activity android:name=".PublicForumActivity" />
+        <activity android:name=".FavoriteUsersActivity" />
+        <activity android:name=".InboxMessageActivity" />
+        <activity android:name=".InboxActivity" />
+        <activity android:name=".EditListingActivity" />
+        <activity android:name=".EditIndividualProductActivity" />
+        <activity android:name=".CheckoutRequestedProductActivity" />
+        <activity
+            android:name=".TransactionActivity"
+            android:label="NewsFeed" />
+
+        <activity
+            android:name=".MainActivityNewsFeed"
+            android:label="@string/title_activity_main_news_feed"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data android:name="android.app.default_searchable"
+                android:value=".SearchableUser"/>
+
+        </activity>
+
+        <activity android:name=".SearchableUser"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+
+
+</application>
+
+</manifest>

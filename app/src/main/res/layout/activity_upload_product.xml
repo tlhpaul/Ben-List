@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/uploadProductScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.upenn.benslist.UploadProductActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <Button
+            android:id="@+id/uploadPictureButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Picture"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/imageToUpload"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/uploadPictureButton"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/productNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Product Name*: "
+            android:layout_below="@+id/imageToUpload"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageToUpload"
+            android:layout_toRightOf="@+id/productNameText"
+            android:layout_toEndOf="@+id/productNameText" />
+
+        <TextView
+            android:id="@+id/productDescriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Product Description*: "
+            android:layout_below="@+id/editProductName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editProductDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editProductName"
+            android:layout_toRightOf="@+id/productDescriptionText"
+            android:layout_toEndOf="@+id/productDescriptionText"/>
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Product Price*: $"
+            android:layout_below="@+id/editProductDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editProductDescription"
+            android:layout_toRightOf="@+id/priceText"
+            android:layout_toEndOf="@+id/priceText"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Product Location: "
+            android:layout_below="@+id/editPrice"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPrice"
+            android:layout_toRightOf="@+id/locationText"
+            android:layout_toEndOf="@+id/locationText"/>
+
+        <TextView
+            android:id="@+id/distanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editLocation"
+            android:text="Enter Distance (in miles) from Towne: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editLocation"
+            android:layout_toEndOf="@+id/distanceText"
+            android:layout_toRightOf="@+id/distanceText"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:id="@+id/phoneNumberText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter Phone Number*: "
+            android:layout_below="@+id/editDistance"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editDistance"
+            android:layout_toRightOf="@+id/phoneNumberText"
+            android:layout_toEndOf="@+id/phoneNumberText"
+            android:inputType="phone"/>
+
+        <Spinner
+            android:id="@+id/productCategorySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/spinnerItemStyle"
+            android:layout_below="@+id/chooseCategoryTextMain"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/chooseCategoryTextMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Choose the category of your product:"
+            android:layout_below="@+id/editPhoneNumber"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:layout_below="@+id/productCategorySpinner"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/beginUploadingProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload A Product"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/beginSearchingProductsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Products"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/profilePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/searchUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Users"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/edit_listings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit My Listings"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inbox"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/newsFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News Feed"
+        android:textStyle="bold" />
+
+</LinearLayout>
