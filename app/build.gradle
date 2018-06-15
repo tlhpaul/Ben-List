@@ -47,6 +47,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.github.jd-alexander:LikeButton:0.2.3'
     compile 'com.firebaseui:firebase-ui-storage:0.6.0'
+    compile 'com.squareup.retrofit2:retrofit:2.4.0'
 }
 
 apply plugin: 'com.android.application'
