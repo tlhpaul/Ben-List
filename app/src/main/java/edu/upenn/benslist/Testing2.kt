@@ -7,6 +7,7 @@ class Testing2{
 
     object companion{
         private const val VALUE = "value"
+        private const val VALUE1 = "value1"
     }
 
 }
