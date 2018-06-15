@@ -6,4 +6,8 @@ package edu.upenn.benslist
 
 class Testing{
 
+    object companion {
+        private val TESTING = "testing"
+    }
+
 }
