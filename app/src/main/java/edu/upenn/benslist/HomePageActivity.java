@@ -17,7 +17,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.sendbird.android.shadow.okhttp3.OkHttpClient;
 
+import retrofit2.Retrofit;
+import retrofit2.http.GET;
 
 
 /**
@@ -32,11 +35,11 @@ public class HomePageActivity extends AppCompatActivity implements View.OnClickL
     private String currentUserID;
     DatabaseReference mUserReference;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_page_layout);
-
         Button uploadProductButton = (Button) findViewById(R.id.beginUploadingProductButton);
         Button searchProductsButton = (Button) findViewById(R.id.beginSearchingProductsButton);
         Button userProfilePage = (Button) findViewById(R.id.profilePage);
