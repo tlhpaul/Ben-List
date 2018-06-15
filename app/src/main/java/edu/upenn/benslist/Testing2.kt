@@ -5,4 +5,8 @@ package edu.upenn.benslist
  */
 class Testing2{
 
+    object companion{
+        private const val VALUE = "value"
+    }
+
 }
